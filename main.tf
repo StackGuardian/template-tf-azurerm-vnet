@@ -1,6 +1,6 @@
 locals {
-  ps_tags = {
-      PS-Managed = "Do-Not-Modify-Delete-Created-By-PhantomStack"
+  sg_tags = {
+      SG-Managed = "Created-By-StackGuardian"
     }
 }
 
