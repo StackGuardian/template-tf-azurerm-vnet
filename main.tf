@@ -5,7 +5,7 @@ locals {
 }
 
 module "tf_azurerm_vnet" {
-  source = "github.com/StackGuardian/terraform-azurerm-vnet?ref=v2.0.0"
+  source = "github.com/StackGuardian/terraform-azurerm-vnet?ref=2.0.0"
 
   //for resource group
   resource_group_name = var.resource_group_name
